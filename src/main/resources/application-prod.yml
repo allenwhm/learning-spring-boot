@@ -1,0 +1,9 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /test
+girl:
+  name: Baby
+  age : 18
+  cupSize : B
+
