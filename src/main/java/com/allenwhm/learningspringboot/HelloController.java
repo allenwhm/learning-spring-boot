@@ -32,6 +32,11 @@ public class HelloController {
         return "id is " + id;
 //        return "index";
     }
+
+    @RequestMapping(value = "/hi", method = RequestMethod.GET)
+    public String hi(@RequestParam(value = "id", required = false, defaultValue = "0") Integer id) {
+        return "id is " + id;
+    }
 }
 
 
