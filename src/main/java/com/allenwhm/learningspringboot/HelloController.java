@@ -2,17 +2,17 @@ package com.allenwhm.learningspringboot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author allenwhm
  * @date 2018/3/25 20:48
  * @description
  */
-@RestController
+@Controller
+@ResponseBody
 public class HelloController {
 
     @Autowired
@@ -24,7 +24,9 @@ public class HelloController {
 //    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     @GetMapping(value = "/hello")
     public String hello() {
-//        return girl.getCupSize();
-        return "index";
+        return girl.getCupSize();
+//        return "index";
     }
 }
+
+

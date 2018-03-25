@@ -1,7 +1,5 @@
 server:
-  port: 8082
-  servlet:
-    context-path: /test
+  port: 8081
 girl:
   name: Baby
   age : 18
