@@ -26,9 +26,10 @@ public class HelloController {
 //    @RequestMapping(value = "/hello", method = RequestMethod.GET)
 //    @PostMapping(value = {"/hello", "/hi"})
     // use Postman to test Post method
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String hello() {
-        return girl.getCupSize();
+    @RequestMapping(value = "/hello/{id}", method = RequestMethod.GET)
+    public String hello(@PathVariable Integer id) {
+//        return girl.getCupSize();
+        return "id is " + id;
 //        return "index";
     }
 }
