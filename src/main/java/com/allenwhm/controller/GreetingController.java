@@ -13,7 +13,6 @@ import java.util.concurrent.atomic.AtomicLong;
  * @description https://spring.io/guides/gs/rest-service/
  */
 @RestController
-@RequestMapping("/hello")
 public class GreetingController {
 
     private static final String template = "Hello, %s";
@@ -23,5 +22,4 @@ public class GreetingController {
     public Greeting greeting(@RequestParam(value = "name", defaultValue = "World", required = false) String name) {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
-
 }
