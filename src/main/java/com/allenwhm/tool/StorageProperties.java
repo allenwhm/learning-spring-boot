@@ -1,4 +1,4 @@
-package com.allenwhm;
+package com.allenwhm.tool;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,4 +1,4 @@
-package com.allenwhm;
+package com.allenwhm.entity;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.allenwhm;
+package com.allenwhm.entity;
 
 /**
  * @author allenwhm

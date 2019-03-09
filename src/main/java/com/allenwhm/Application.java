@@ -1,5 +1,7 @@
 package com.allenwhm;
 
+import com.allenwhm.service.StorageService;
+import com.allenwhm.tool.StorageProperties;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,16 +10,12 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableConfigurationProperties(StorageProperties.class)
-public class LearningSpringBootApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(LearningSpringBootApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
-
-    //learn spring boot with the guide https://spring.io/guides
-
-    // https://github.com/spring-guides/gs-uploading-files
-
+    
     @Bean
     CommandLineRunner init(StorageService storageService) {
         return (args -> {
