@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication
+@SpringBootApplication  // @SpringBootApplication == @Configuration + @EnableAutoConfiguration + @EnableWebMvc + @ComponentScan
 //@EnableConfigurationProperties(StorageProperties.class)
 public class Application {
 
