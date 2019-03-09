@@ -1,4 +1,4 @@
-package com.allenwhm.learningspringboot;
+package com.allenwhm;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,4 +1,4 @@
-package com.allenwhm.learningspringboot;
+package com.allenwhm;
 
 /**
  * @author allenwhm

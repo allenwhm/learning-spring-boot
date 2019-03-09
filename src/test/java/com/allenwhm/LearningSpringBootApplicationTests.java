@@ -1,4 +1,4 @@
-package com.allenwhm.learningspringboot;
+package com.allenwhm;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
