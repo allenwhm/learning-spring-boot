@@ -8,6 +8,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * Created by : allenwhm
+ * DateTime : 2019-03-10 17:00
+ * https://spring.io/guides/gs/uploading-files/
+ **/
 @SpringBootApplication
 // @SpringBootApplication == @Configuration + @EnableAutoConfiguration + @EnableWebMvc + @ComponentScan
 @EnableConfigurationProperties(StorageProperties.class)
