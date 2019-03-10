@@ -1,4 +1,4 @@
-package com.allenwhm.application;
+package com.allenwhm;
 
 import com.allenwhm.entity.Quote;
 import org.slf4j.Logger;
