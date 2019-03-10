@@ -12,6 +12,8 @@ import java.util.Date;
  * Created by : allenwhm
  * DateTime : 2019-03-10 11:19
  * https://spring.io/guides/gs/scheduling-tasks/
+ *
+ * add @EnableScheduling in XxxApplication
  **/
 @Component
 public class ScheduledTasks {

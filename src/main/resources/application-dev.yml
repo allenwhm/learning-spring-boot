@@ -1,8 +1,0 @@
-server:
-  port: 8080
-girl:
-  name: Baby
-  age : 18
-  cupSize : F
-boyName : Tom
-

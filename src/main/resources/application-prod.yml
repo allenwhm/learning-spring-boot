@@ -1,7 +1,0 @@
-server:
-  port: 8081
-girl:
-  name: Baby
-  age : 18
-  cupSize : B
-

@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * DateTime : 2019-03-10 12:52
  * https://spring.io/guides/gs/relational-data-access/
  **/
-@SpringBootApplication
+//@SpringBootApplication
 public class AccessDataInDB implements CommandLineRunner {
 
     private static final Logger LOG = LoggerFactory.getLogger(AccessDataInDB.class);
