@@ -1,13 +1,13 @@
 package com.allenwhm;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
-@SpringBootApplication  // @SpringBootApplication == @Configuration + @EnableAutoConfiguration + @EnableWebMvc + @ComponentScan
+@SpringBootApplication
+// @SpringBootApplication == @Configuration + @EnableAutoConfiguration + @EnableWebMvc + @ComponentScan
 //@EnableConfigurationProperties(StorageProperties.class)
+@EnableScheduling
 public class Application {
 
     public static void main(String[] args) {
