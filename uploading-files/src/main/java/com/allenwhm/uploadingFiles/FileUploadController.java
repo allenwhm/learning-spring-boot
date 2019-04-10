@@ -1,7 +1,5 @@
-package com.allenwhm.controller;
+package com.allenwhm.uploadingFiles;
 
-import com.allenwhm.exception.StorageFileNotFoundException;
-import com.allenwhm.service.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;

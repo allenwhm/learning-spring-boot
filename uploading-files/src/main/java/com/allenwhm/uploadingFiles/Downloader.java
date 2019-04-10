@@ -1,4 +1,4 @@
-package com.allenwhm.tool;
+package com.allenwhm.uploadingFiles;
 
 import java.io.IOException;
 import java.io.InputStream;

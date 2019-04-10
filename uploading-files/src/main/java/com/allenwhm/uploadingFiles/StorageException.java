@@ -1,4 +1,4 @@
-package com.allenwhm.exception;
+package com.allenwhm.uploadingFiles;
 
 /**
  * @author allenwhm

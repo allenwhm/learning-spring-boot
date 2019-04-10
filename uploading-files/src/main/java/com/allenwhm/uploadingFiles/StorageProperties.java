@@ -1,4 +1,4 @@
-package com.allenwhm.storage;
+package com.allenwhm.uploadingFiles;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
