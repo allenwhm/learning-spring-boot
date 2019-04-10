@@ -8,6 +8,7 @@
     <version>1.0.0</version>
     <modules>
         <module>rest-service</module>
+        <module>scheduling-tasks</module>
     </modules>
     <packaging>pom</packaging>
 
