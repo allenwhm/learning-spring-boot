@@ -6,7 +6,10 @@
     <groupId>com.allenwhm</groupId>
     <artifactId>spring-boot-in-action</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>rest-service</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>spring-boot-in-action</name>
     <description>Action with the tutorial in https://spring.io/guides</description>
