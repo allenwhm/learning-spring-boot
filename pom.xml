@@ -9,6 +9,7 @@
     <modules>
         <module>rest-service</module>
         <module>scheduling-tasks</module>
+        <module>consuming-rest</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -1,6 +1,6 @@
 //package com.allenwhm.controller;
 //
-//import com.allenwhm.entity.Girl;
+//import com.allenwhm.consumingRest.Girl;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.beans.factory.annotation.Value;
 //import org.springframework.web.bind.annotation.*;

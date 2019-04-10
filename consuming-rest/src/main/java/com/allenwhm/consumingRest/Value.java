@@ -1,4 +1,4 @@
-package com.allenwhm.entity;
+package com.allenwhm.consumingRest;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
