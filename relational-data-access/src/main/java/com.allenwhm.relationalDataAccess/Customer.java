@@ -1,4 +1,4 @@
-package com.allenwhm.entity;
+package com.allenwhm.relationalDataAccess;
 
 /**
  * Created by : allenwhm

@@ -10,6 +10,7 @@
         <module>rest-service</module>
         <module>scheduling-tasks</module>
         <module>consuming-rest</module>
+        <module>relational-data-access</module>
     </modules>
     <packaging>pom</packaging>
 
