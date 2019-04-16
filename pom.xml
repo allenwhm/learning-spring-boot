@@ -23,6 +23,7 @@
         <module>consuming-rest</module>
         <module>relational-data-access</module>
         <module>uploading-files</module>
+        <module>aws-demo</module>
     </modules>
     <packaging>pom</packaging>
 
