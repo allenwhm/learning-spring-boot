@@ -6,13 +6,8 @@ import software.amazon.awssdk.services.s3.model.*;
 
 import java.nio.file.Paths;
 
-/**
- * Created by : allenwhm
- * DateTime : 2019-04-15 11:53
- **/
 public class Application {
     public static void main(String[] args) {
-
         // list the bucket
         Region region = Region.US_EAST_2;
         S3Client s3 = S3Client.builder().region(region).build();
@@ -20,7 +15,7 @@ public class Application {
         ListBucketsResponse listBucketsResponse = s3.listBuckets(listBucketsRequest);
         listBucketsResponse.buckets().stream().forEach(x -> System.out.println(x.name()));
 
-        String bucket = "bucket" + System.currentTimeMillis();
+        String bucket = "bucket_" + System.currentTimeMillis();
         CreateBucketRequest createBucketRequest = CreateBucketRequest
                 .builder()
                 .bucket(bucket)
