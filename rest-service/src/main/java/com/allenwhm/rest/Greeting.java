@@ -1,4 +1,4 @@
-package com.allenwhm.restService;
+package com.allenwhm.rest;
 
 /**
  * @author allenwhm
@@ -7,7 +7,9 @@ package com.allenwhm.restService;
  */
 public class Greeting {
 
-    // final make the variables cannot be set
+    /**
+     * final,make the variables cannot be set
+     */
     private final long id;
     private final String content;
 

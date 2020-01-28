@@ -1,4 +1,4 @@
-package com.allenwhm.restService;
+package com.allenwhm.rest;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
