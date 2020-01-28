@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by : allenwhm
- * DateTime : 2019-04-10 23:16
- **/
+ * @author allnwhm
+ * @date 2018/3/27 22:53
+ */
 @SpringBootApplication
 public class RestServiceApplication {
 
