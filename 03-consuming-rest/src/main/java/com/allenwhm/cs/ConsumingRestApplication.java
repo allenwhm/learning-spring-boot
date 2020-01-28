@@ -1,4 +1,4 @@
-package com.allenwhm.consumingRest;
+package com.allenwhm.cs;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by : allenwhm
- * DateTime : 2019-04-10 23:36
+ * @author allenwhm
+ * @date 2019-04-10 23:36
  **/
 @SpringBootApplication
 public class ConsumingRestApplication {
@@ -30,6 +30,7 @@ public class ConsumingRestApplication {
     @Bean
     public CommandLineRunner run(RestTemplate restTemplate){
         return args -> {
+            // return random value: https://gturnquist-quoters.cfapps.io/api/random
             Quote quote = restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", Quote.class);
             LOG.info(quote.toString());
         };

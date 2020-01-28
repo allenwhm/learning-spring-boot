@@ -20,7 +20,7 @@
     <modules>
         <module>01-rest-service</module>
         <module>02-scheduling-tasks</module>
-        <module>consuming-rest</module>
+        <module>03-consuming-rest</module>
         <module>relational-data-access</module>
         <module>uploading-files</module>
         <module>aws-demo</module>
