@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
+        <version>2.2.4.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -18,7 +18,7 @@
     <description>Action with the tutorial in https://spring.io/guides</description>
 
     <modules>
-        <module>rest-service</module>
+        <module>01-rest-service</module>
         <module>scheduling-tasks</module>
         <module>consuming-rest</module>
         <module>relational-data-access</module>
