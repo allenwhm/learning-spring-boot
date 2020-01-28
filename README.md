@@ -1,3 +1,3 @@
-### Spring Boot In Action
+## Spring Boot In Action
 
-This project is used for learning Spring Boot with tutorial in https://spring.io/guides
+Learn Spring Boot with official tutorial in https://spring.io/guides
