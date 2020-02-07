@@ -1,4 +1,4 @@
-package com.allenwhm.relationalDataAccess;
+package com.alenwhm.rda;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by : allenwhm
- * DateTime : 2019-04-10 23:48
+ * @author allenwhm
+ * @date 2019-04-10 23:48
  **/
 @SpringBootApplication
 public class RelationalDataAccessApplication implements CommandLineRunner {
