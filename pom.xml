@@ -18,12 +18,13 @@
     <description>Action with the tutorial in https://spring.io/guides</description>
 
     <modules>
-        <module>01-rest-service</module>
-        <module>02-scheduling-tasks</module>
-        <module>03-consuming-rest</module>
-        <module>04-relational-data-access</module>
+        <module>rest-service</module>
+        <module>scheduling-tasks</module>
+        <module>consuming-rest</module>
+        <module>relational-data-access</module>
         <module>uploading-files</module>
         <module>messaging-redis</module>
+        <module>authenticating-ldap</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.allenwhm</groupId>
-    <artifactId>04-relational-data-access</artifactId>
+    <artifactId>relational-data-access</artifactId>
     <version>1.0.0</version>
 
     <properties>
