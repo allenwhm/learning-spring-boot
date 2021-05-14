@@ -18,7 +18,7 @@
     <description>Action with the tutorial in https://spring.io/guides</description>
 
     <modules>
-        <module>rest-service</module>
+        <module>building-a-restful-web-service</module>
         <module>scheduling-tasks</module>
         <module>consuming-rest</module>
         <module>relational-data-access</module>
