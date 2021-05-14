@@ -25,6 +25,7 @@
         <module>uploading-files</module>
         <module>messaging-redis</module>
         <module>authenticating-ldap</module>
+        <module>command-line-runner</module>
     </modules>
     <packaging>pom</packaging>
 
