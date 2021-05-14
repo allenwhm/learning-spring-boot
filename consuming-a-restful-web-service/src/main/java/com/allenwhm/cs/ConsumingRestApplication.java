@@ -31,7 +31,7 @@ public class ConsumingRestApplication {
     public CommandLineRunner run(RestTemplate restTemplate){
         return args -> {
             // return random value: https://gturnquist-quoters.cfapps.io/api/random
-            Quote quote = restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", Quote.class);
+            Quote quote = restTemplate.getForObject("https://quoters.apps.pcfone.io/api/random", Quote.class);
             LOG.info(quote.toString());
         };
     }

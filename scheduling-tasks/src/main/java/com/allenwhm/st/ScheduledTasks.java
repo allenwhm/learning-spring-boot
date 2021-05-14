@@ -20,7 +20,7 @@ public class ScheduledTasks {
     private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     /**
-     * fixedDelay: specifies the interval between invocations measured from the completion of the task
+     * fixedDelay: specifies the interval between invocations, measured from the completion of the task
      * fixRate: specifies the interval between method invocations, measured from the start time of each invocation
      * cron: cron job
      */
