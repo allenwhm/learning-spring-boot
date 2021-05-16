@@ -1,4 +1,4 @@
-package com.alenwhm.rda;
+package com.allen.rdb;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
