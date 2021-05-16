@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    // run application, used along with `mainClassName`
+    id 'application'
+}
+
+group 'com.allen'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    archiveBaseName = 'building-java-projects-with-gradle'
+    archiveVersion = '1.0.0'
+}
+
+mainClassName = 'HelloGradle'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'joda-time:joda-time:2.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}
