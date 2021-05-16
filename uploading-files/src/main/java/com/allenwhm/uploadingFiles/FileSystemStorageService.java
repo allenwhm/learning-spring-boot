@@ -22,8 +22,6 @@ import java.util.stream.Stream;
 @Service
 public class FileSystemStorageService implements StorageService {
 
-    // TODO : fully understand the code here
-
     private final Path rootLocation;
 
     @Autowired

@@ -28,8 +28,8 @@
         <module>scheduling-tasks</module>
         <module>consuming-a-restful-web-service</module>
         <module>accessing-relational-data-using-jdbc-with-spring</module>
-
         <module>uploading-files</module>
+
         <module>messaging-redis</module>
         <module>authenticating-ldap</module>
         <module>command-line-runner</module>

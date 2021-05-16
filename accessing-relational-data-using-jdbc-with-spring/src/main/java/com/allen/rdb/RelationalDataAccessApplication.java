@@ -31,14 +31,14 @@ public class RelationalDataAccessApplication implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
 
-        LOG.info("Creating tables");
+        LOG.info("Creating tables...");
 
         jdbcTemplate.execute("DROP TABLE customers IF EXISTS");
-        jdbcTemplate.execute("CREATE TABLE customers(" +
-                "id SERIAL, first_name VARCHAR(255), last_name VARCHAR(255))");
+        jdbcTemplate.execute("CREATE TABLE customers(" + "id SERIAL, first_name VARCHAR(255), last_name VARCHAR(255))");
 
         // Split up the array of whole names into an array of first/last names
-        List<Object[]> splitUpNames = Arrays.asList("John Woo", "Jeff Dean", "Josh Bloch", "Josh Long").stream()
+        List<Object[]> splitUpNames = Arrays.asList("John Woo", "Jeff Dean", "Josh Bloch", "Josh Long")
+                .stream()
                 .map(name -> name.split(" "))
                 .collect(Collectors.toList());
 
@@ -49,9 +49,13 @@ public class RelationalDataAccessApplication implements CommandLineRunner {
         jdbcTemplate.batchUpdate("INSERT INTO customers(first_name, last_name) VALUES (?,?)", splitUpNames);
 
         LOG.info("Querying for customer records where first_name = 'Josh':");
-        jdbcTemplate.query(
-                "SELECT id, first_name, last_name FROM customers WHERE first_name = ?", new Object[]{"Josh"},
-                (rs, rowNum) -> new Customer(rs.getLong("id"), rs.getString("first_name"), rs.getString("last_name"))
+        jdbcTemplate.query("SELECT id, first_name, last_name FROM customers WHERE first_name = ?", new Object[]{"Josh"},
+                (rs, rowNum)
+                        -> new Customer(
+                        rs.getLong("id"),
+                        rs.getString("first_name"),
+                        rs.getString("last_name")
+                )
         ).forEach(customer -> LOG.info(customer.toString()));
     }
 }
