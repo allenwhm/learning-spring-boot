@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.allenwhm</groupId>
-    <artifactId>authenticating-ldap</artifactId>
+    <artifactId>authenticating-a-user-with-ldap</artifactId>
     <version>1.0.0</version>
 
     <properties>
