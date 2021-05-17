@@ -30,8 +30,9 @@
         <module>accessing-relational-data-using-jdbc-with-spring</module>
         <module>uploading-files</module>
         <module>authenticating-a-user-with-ldap</module>
+        <module>messaging-with-redis</module>
+        <module>messaging-with-rabbitmq</module>
 
-        <module>messaging-redis</module>
         <module>command-line-runner</module>
     </modules>
 
