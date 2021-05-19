@@ -33,6 +33,7 @@
         <module>messaging-with-redis</module>
         <module>messaging-with-rabbitmq</module>
 
+        <module>caching-data-with-spring</module>
         <module>command-line-runner</module>
     </modules>
 
