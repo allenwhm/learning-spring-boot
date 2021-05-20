@@ -39,6 +39,9 @@
         <module>centralized-configuration-service</module>
         <module>centralized-configuration-client</module>
 
+        <module>routing-and-filtering-book</module>
+        <module>routing-and-filtering-gateway</module>
+
         <module>command-line-runner</module>
     </modules>
 
