@@ -36,6 +36,9 @@
         <module>caching-data-with-spring</module>
         <module>service-registry-and-discovery-service</module>
         <module>service-registry-and-discovery-client</module>
+        <module>centralized-configuration-service</module>
+        <module>centralized-configuration-client</module>
+
         <module>command-line-runner</module>
     </modules>
 
